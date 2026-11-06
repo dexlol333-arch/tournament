@@ -1,0 +1,17 @@
+name: Tourney
+version: 1.0.0
+main: dev.tourney.TourneyPlugin
+api-version: '1.21'
+description: Automated 1v1 bracket tournaments with multiple arenas.
+commands:
+  tourney:
+    description: Tournament commands
+    aliases: [tournament, tourny]
+    usage: /tourney <join|leave|start|cancel|create|...>
+permissions:
+  tourney.admin:
+    description: Manage arenas and run tournaments
+    default: op
+  tourney.join:
+    description: Join tournaments
+    default: true

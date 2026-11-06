@@ -1,0 +1,8 @@
+# Seconds players have to join after /tourney start
+registration-seconds: 60
+# Seconds of frozen countdown before each fight
+countdown-seconds: 5
+# Minimum players needed or the tournament is cancelled
+min-players: 2
+# Seconds between a round finishing and the next round being announced
+round-delay-seconds: 5
